@@ -1,0 +1,93 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  margin: 260px;
+}
+
+.user-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  background-color: #fff;
+  padding: 15px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.infos-user {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.infos-user h2,
+.infos-user p {
+  margin: 15px 0;
+}
+
+.infos-user p {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-social {
+  padding: 5px;
+}
+
+.facebook {
+  background-color: #0a65ff;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.instagram {
+  background-color: #e90874;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.linkedin {
+  background-color: #0a66c2;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.facebook:hover {
+  background-color: #3780ff;
+}
+
+.linkedin:hover {
+  background-color: #4193e5;
+}
+
+.instagram:hover {
+  background-color: #e15699;
+}
